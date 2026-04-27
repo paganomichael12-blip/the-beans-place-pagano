@@ -56,6 +56,8 @@
 import HeroSection from "./components/HeroSection";
 import FooterSection from "./components/FooterSection";
 import NavBar from "./components/NavBar";
+import RibbonTicker from "./components/RibbonTicker";
+import FeaturesSection from "./components/FeaturesSection";
 
 export default function App() {
     return (
@@ -72,6 +74,11 @@ export default function App() {
 
             {/* Ribbon Ticker */}
             <RibbonTicker />
+
+            {/* Features /Carousel */}
+            <section className="features bg-features" id="shop">
+                <FeaturesSection />
+            </section>
 
             {/* Footer */}
             <section className="bg-footer">
