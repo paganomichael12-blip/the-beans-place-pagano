@@ -70,6 +70,9 @@ export default function App() {
                 </div>
             </section>
 
+            {/* Ribbon Ticker */}
+            <RibbonTicker />
+
             {/* Footer */}
             <section className="bg-footer">
                 <FooterSection />
