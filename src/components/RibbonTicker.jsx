@@ -91,7 +91,7 @@ export default function RibbonTicker() {
 
     return (
         <div className="ribbon-ticker-container">
-            <div clasName="ribbon-ticker">
+            <div className="ribbon-ticker">
                 <div className="ribbon-track">
                     {items.map((name, i) => {
                         <motion.span
