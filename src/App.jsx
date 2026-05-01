@@ -61,6 +61,8 @@ import FeaturesSection from "./components/FeaturesSection";
 import ProductShowcase from "./components/ProductShowcase";
 import CtaSection from "./components/CtaSection";
 import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
+import ContactForm from "./components/ContactForm";
 
 export default function App() {
     return (
@@ -68,44 +70,44 @@ export default function App() {
             {/* NavBar */}
             <NavBar />
 
-            {/* Hero */}
+            {/* HERO */}
             <section className="hero bg-hero">
                 <div className="hero-grid">
                     <HeroSection />
                 </div>
             </section>
 
-            {/* Ribbon Ticker */}
             <RibbonTicker />
 
-            {/* Features /Carousel */}
+            {/* FEATURES / CAROUSEL */}
             <section className="features bg-features" id="shop">
                 <FeaturesSection />
             </section>
 
-            {/* Product Showcase */}
+            {/* PRODUCT SHOWCASE */}
             <section className="bg-cta">
                 <ProductShowcase />
             </section>
 
             <RibbonTicker />
 
-            {/* CTA} */}
+            {/* CTA */}
             <section className="bg-cta">
                 <CtaSection />
             </section>
 
-            {/* About */}
             <section className="bg-cta" id="about">
                 <AboutSection />
             </section>
 
-            {/* CONTACT
-            <section className="bg-cta" id="contact">
+            {/* Contact */}
+            {/* <section className="bg-cta" id="contact">
                 <ContactSection />
             </section> */}
 
-            {/* Footer */}
+            <ContactForm />
+
+            {/* FOOTER */}
             <section className="bg-footer">
                 <FooterSection />
             </section>
